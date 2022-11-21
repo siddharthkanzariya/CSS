@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            /*border-box property*/
+            #b1{
+                background: url(img.jpg);
+                color: aliceblue;
+                border: 5px dashed yellow;
+                height: 120px;
+                width: 150px;
+                background-origin: border-box;
+                background-repeat: no-repeat;
+            }
+            /*padding-box property*/
+            #b2{
+                background: url(img.jpg);
+                color: aliceblue;
+                border: 5px dashed yellow;
+                height: 120px;
+                width: 150px;
+                background-origin: padding-box;
+                background-repeat: no-repeat; 
+            }
+            /*content-box property*/
+            #b3{
+                background: url(img.jpg);
+                color: aliceblue;
+                border: 5px dashed yellow;
+                height: 120px;
+                width: 150px;
+                padding: 10px;
+                background-origin: content-box;
+                background-repeat: no-repeat;   
+            }
+        </style>
+    </head>
+    <body>
+        <p id="b1">ssssssss</p>
+        <p id="b2">ssssssss</p>
+        <p id="b3">ssssssss</p>
+    </body>
+</html>
